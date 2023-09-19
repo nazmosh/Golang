@@ -1,9 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"path"
+)
 
-func main () {
-	var speed int
+func main() {
 
-	fmt.Println(speed)
+	_, file := path.Split("css/main.css")
+	fmt.Println("file:" , file)
 }
