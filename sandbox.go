@@ -5,6 +5,9 @@ import (
 	"path"
 )
 
+var width float32
+var height float32
+
 func main() {
 
 	dir, file := path.Split("css/main.css")
